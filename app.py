@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = '/content/BSS Retail Data.csv'
+file_path = 'BSS Retail Data.csv'
 df = pd.read_csv(file_path)
 
 # Convert salesdate to datetime
